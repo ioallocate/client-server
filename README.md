@@ -1,5 +1,5 @@
 # Client-Server Telemetry App 
-##Overview
+## Overview
 This project is a C++ client-server application designed as a learning base for networking, multithreading, and GUI integration. The client collects basic telemetry data from the user’s system and sends it to the server via sockets. The server handles multiple clients efficiently using a thread pool and provides a graphical interface for monitoring.
 
 ## Features: 
