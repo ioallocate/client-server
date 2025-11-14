@@ -10,6 +10,7 @@ This project is a C++ client-server application designed as a learning base for 
 Collects system information: OS, installed RAM, installed software.
 Constructs telemetry data into JSON format.
 Sends data to the server using socket communication.
+Displays connection status and server health via a native C Based Interface.
 Implements a connection guard that retries up to 3 times if the connection is lost.
 
 
@@ -17,7 +18,6 @@ Implements a connection guard that retries up to 3 times if the connection is lo
 ### Server
 
 Should handle up to 1000 clients using a thread pool (Not tested).
-Displays connection status and server health via a native C Based Interface.
 Allows dumping and viewing detailed client information.
 
 
