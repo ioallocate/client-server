@@ -16,7 +16,7 @@ Implements a connection guard that retries up to 3 times if the connection is lo
 
 ### Server
 
-Handles up to 1000 clients using a thread pool.
+Should handle up to 1000 clients using a thread pool (Not tested).
 Displays connection status and server health via an ImGui-based GUI.
 Allows dumping and viewing detailed client information.
 
