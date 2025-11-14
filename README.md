@@ -17,7 +17,7 @@ Implements a connection guard that retries up to 3 times if the connection is lo
 ### Server
 
 Should handle up to 1000 clients using a thread pool (Not tested).
-Displays connection status and server health via an ImGui-based GUI.
+Displays connection status and server health via a native C Based Interface.
 Allows dumping and viewing detailed client information.
 
 
@@ -28,10 +28,7 @@ Allows dumping and viewing detailed client information.
 Client-Server Model using TCP sockets.
 Multithreaded Server with a thread pool for scalability.
 JSON Serialization for structured data exchange.
-ImGui GUI for real-time monitoring.
-
 
 ## Dependencies
 
 nlohmann/json for JSON handling.
-ImGui for GUI rendering.
